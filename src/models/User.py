@@ -4,8 +4,8 @@ from eth_typing import Address
 from web3.types import Wei
 from src.common.config import users
 from src.common.exceptions import UserException
-from src.common.types import ConfigTeam, ConfigUser, Tus, TeamTask
-from src.helpers.general import findInList, firstOrNone
+from src.common.types import ConfigTeam, ConfigUser, StaggeringGroup, Tus, TeamTask
+from src.helpers.general import findInListOfDicts, firstOrNone
 from src.libs.CrabadaWeb2Client.types import Game, TeamStatus
 from src.models.Model import Model
 
@@ -27,13 +27,19 @@ class User(Model):
         Return the configuration of the team with the given team ID;
         if the team does not belong to the current user, return None.
         """
-        return findInList(self.config["teams"], "id", teamId)  # type: ignore
+        return findInListOfDicts(self.config["teams"], "id", teamId)  # type: ignore
 
     def getTeams(self) -> List[ConfigTeam]:
         """
         Return the user teams as specified in the configuration
         """
         return self.config["teams"]
+
+    def getStaggeringGroups(self) -> List[StaggeringGroup]:
+        return self.config["staggeringGroups"]
+
+    def getStaggeringDelayInMinutes(self) -> int:
+        return self.config["staggeringDelayInMinutes"]
 
     def getTeamConfigFromMine(self, mine: Game) -> Tuple[ConfigTeam, TeamStatus]:
         """

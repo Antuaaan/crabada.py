@@ -2,10 +2,8 @@
 Settle all loots of a given user
 """
 
-from src.common.logger import logger
-from src.common.txLogger import txLogger, logTx
+from src.common.logger import logger, logTx
 from src.helpers.instantMessage import sendIM
-from src.helpers.sms import sendSms
 from src.common.clients import makeCrabadaWeb3Client
 from src.helpers.mines import (
     fetchOpenLoots,
@@ -13,6 +11,7 @@ from src.helpers.mines import (
 )
 from src.models.User import User
 from web3.exceptions import ContractLogicError
+from src.helpers.donate import maybeDonate
 
 
 def closeLoots(user: User) -> int:
@@ -20,7 +19,9 @@ def closeLoots(user: User) -> int:
     Settle all open loot games that can be settled; return
     the number of closed loots.
     """
-    client = makeCrabadaWeb3Client()
+    client = makeCrabadaWeb3Client(
+        upperLimitForBaseFeeInGwei=user.config["closeLootMaxGasInGwei"]
+    )
     settleableMines = [g for g in fetchOpenLoots(user) if mineCanBeSettled(g)]
 
     if not settleableMines:
@@ -42,16 +43,15 @@ def closeLoots(user: User) -> int:
             continue
 
         # Report
-        txLogger.info(txHash)
         txReceipt = client.getTransactionReceipt(txHash)
         logTx(txReceipt)
         if txReceipt["status"] != 1:
             logger.error(f"Error closing loot {gameId}")
-            sendSms(f"Crabada: Error closing loot {gameId}")
             sendIM(f"Error closing Loot {gameId}")
         else:
             nClosedLoots += 1
             logger.info(f"Loot {gameId} closed correctly")
             sendIM(f"Loot {gameId} closed correctly")
+            maybeDonate(txReceipt)
 
     return nClosedLoots

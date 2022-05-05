@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83cdc245-1c32-40ca-8867-748740f3dfd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/looting/closeLoots.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/looting/closeLoots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/looting/reinforceAttack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/looting/reinforceAttack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/mining/closeMines.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/mining/closeMines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/mining/reinforceDefense.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/mining/reinforceDefense.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/mining/sendTeamsMining.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/mining/sendTeamsMining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/clients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/dotenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/dotenv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/txLogger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/instantMessage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/instantMessage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/price.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/price.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb2Client/CrabadaWeb2Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/CrabadaWeb2Client/CrabadaWeb2Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/AvalancheCWeb3Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/AvalancheCWeb3Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/Helpers/Debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/Helpers/Debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/Web3Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/Web3Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetBlock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetContract.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetContract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestBp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestBp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestBpHighCost.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestBpHighCost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestMp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestMp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestMpHighCost.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestMpHighCost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/strategies/loot/testLowestBp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/strategies/loot/testLowestBp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/strategies/reinforce/testGetBestReinforcement.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/strategies/reinforce/testGetBestReinforcement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/strategies/reinforce/testMakeReinforceStrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/strategies/reinforce/testMakeReinforceStrategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/testConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/testConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/testSendIM.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/testSendIM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/testSendSms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/transactions/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.env.example" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.env." root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config.env" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectId" id="27PltrfcREmadbtIXDuJUVjHMFu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CrabadaAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrabadaAuto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrabadaAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrabadaAuto" type="462c0819:PsiDirectoryNode" />
+              <item name=".vscode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="testSendIM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CrabadaAuto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/testSendIM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.testSendIM" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83cdc245-1c32-40ca-8867-748740f3dfd9" name="Default Changelist" comment="" />
+      <created>1649228896903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649228896903</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

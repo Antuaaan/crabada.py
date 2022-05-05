@@ -15,7 +15,7 @@ class HighestMpHighCost(HighestMp):
 
     def query(self, game: Game) -> dict[str, Any]:
         return {
-            "limit": 200,
-            "orderBy": "mine_point",
+            "limit": 100,
+            "orderBy": "time_point",
             "order": "desc",
         }

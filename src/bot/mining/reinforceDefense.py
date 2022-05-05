@@ -4,11 +4,9 @@ Helper functions to reinforce all mines of a given user
 
 from web3.main import Web3
 from src.common.exceptions import NoSuitableReinforcementFound
-from src.common.logger import logger
-from src.common.txLogger import txLogger, logTx
+from src.common.logger import logger, logTx
 from src.helpers.mines import fetchOpenMines
 from src.helpers.reinforce import minerCanReinforce
-from src.helpers.sms import sendSms
 from src.helpers.instantMessage import sendIM
 from src.common.clients import makeCrabadaWeb3Client
 from src.models.User import User
@@ -66,14 +64,15 @@ def reinforceDefense(user: User) -> int:
         except (ContractLogicError, TransactionTooExpensive) as e:
             logger.warning(f"Error reinforcing mine {mineId}: {e}")
             sendIM(f"Error reinforcing mine {mineId}: {e}")
+            # Wait some time to avoid renting the same crab for different teams
+            if len(reinforceableMines) > 1:
+                sleep(reinforceDelayInSeconds)
             continue
 
         # Report
-        txLogger.info(txHash)
         txReceipt = client.getTransactionReceipt(txHash)
         logTx(txReceipt)
         if txReceipt["status"] != 1:
-            sendSms(f"Crabada: Error reinforcing mine {mineId}")
             logger.error(f"Error reinforcing mine {mineId}")
             sendIM(crabInfoMsg)
             sendIM(f"Error reinforcing mine {mineId}")
