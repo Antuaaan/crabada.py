@@ -7,7 +7,7 @@ dist/
 __pycache__/
 *.so
 *~
-.env
+.env.
 .history
 reports/
 .DS_Store

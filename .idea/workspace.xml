@@ -2,48 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cdc245-1c32-40ca-8867-748740f3dfd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/looting/closeLoots.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/looting/closeLoots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/looting/reinforceAttack.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/looting/reinforceAttack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/mining/closeMines.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/mining/closeMines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/mining/reinforceDefense.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/mining/reinforceDefense.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/mining/sendTeamsMining.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/mining/sendTeamsMining.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/clients.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/dotenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/dotenv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/txLogger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/general.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/instantMessage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/instantMessage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/donate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/donate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/price.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/price.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/sms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/rewards.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/rewards.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb2Client/CrabadaWeb2Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/CrabadaWeb2Client/CrabadaWeb2Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/AvalancheCWeb3Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/AvalancheCWeb3Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/Helpers/Debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/Helpers/Debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/CrabadaWeb3Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/CrabadaWeb3Client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/contracts/Crabada.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/contracts/CrabadaAbi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/contracts/IdleGame.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/contracts/IdleGameAbi.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/contracts/IdleGameAbi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/CrabadaWeb3Client/contracts/MarketPlace.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/Erc20Web3Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/Erc20Web3Client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/Web3Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/Web3Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetBlock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetContract.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/tests/testGetContract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestBp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestBp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestBpHighCost.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestBpHighCost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestMp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestMp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/reinforce/HighestMpHighCost.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/reinforce/HighestMpHighCost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/strategies/loot/testLowestBp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/strategies/loot/testLowestBp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/strategies/reinforce/testGetBestReinforcement.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/strategies/reinforce/testGetBestReinforcement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/strategies/reinforce/testMakeReinforceStrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/strategies/reinforce/testMakeReinforceStrategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/testConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/testConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/testSendIM.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/testSendIM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/testSendSms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/transactions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/tests/testEstimateGasForTransfer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/tests/testEstimateGasForTransfer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/Web3Client/tests/testTransactionWithValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/Web3Client/tests/testTransactionWithValue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/donate/testDonate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/donate/testDonate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/donate/testGetDonationAmounts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/donate/testGetDonationAmounts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
